@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 800 200">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacificodisplay=swap');
+
+    .typewriter-text {
+      font-size: 96px;
+      font-family: 'Monospace', 'Courier New', monospace;
+      font-weight: bold;
+      letter-spacing: -5px;
+      fill: #14617a;
+      opacity: 0;
+      animation: typewriter 4s steps(9, end) infinite;
+    }
+
+    @keyframes typewriter {
+      0% {
+        opacity: 0;
+        width: 0;
+      }
+      20% {
+        opacity: 1;
+        width: 0;
+      }
+      50% {
+        opacity: 1;
+        width: 100%;
+      }
+      80% {
+        opacity: 1;
+        width: 100%;
+      }
+      100% {
+        opacity: 0;
+        width: 100%;
+      }
+    }
+  </style>
+  <text class="typewriter-text" x="0" y="100" dominant-baseline="middle">
+    <tspan dy="0">S</tspan>
+    <tspan dy="0" class="typewriter-text" style="animation-delay: 0.4s;">h</tspan>
+    <tspan dy="0" class="typewriter-text" style="animation-delay: 0.8s;">o</tspan>
+    <tspan dy="0" class="typewriter-text" style="animation-delay: 1.2s;">p</tspan>
+    <tspan dy="0" class="typewriter-text" style="animation-delay: 1.6s;">Z</tspan>
+    <tspan dy="0" class="typewriter-text" style="animation-delay: 2.0s;">i</tspan>
+    <tspan dy="0" class="typewriter-text" style="animation-delay: 2.4s;">l</tspan>
+    <tspan dy="0" class="typewriter-text" style="animation-delay: 2.8s;">l</tspan>
+    <tspan dy="0" class="typewriter-text" style="animation-delay: 3.2s;">a</tspan>
+  </text>
+</svg>
