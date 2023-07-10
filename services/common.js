@@ -6,7 +6,7 @@ let transporter = nodemailer.createTransport({
   port: 587,
   secure: false, // true for 465, false for other ports
   auth: {
-    user: 'u20cs009@gmail.com', // gmail
+    user: 'u20cs009@coed.svnit.ac.in', // gmail
     pass: process.env.MAIL_PASSWORD, // pass
   },
 });
